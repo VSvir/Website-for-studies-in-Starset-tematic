@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Обратная связь</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap/bootstrap.css">
+    <script src="/styles/bootstrap%20js/bootstrap.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn141.picsart.com/306113695172211.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="heading">
+    </div>
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/images/star40.png" alt="лого" title="В начало" width="40" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <a class="nav-link" href="index.html">Главная</a>
+                <a class="nav-link" href="group.html#main">О группе Starset</a>
+                <a class="nav-link" href="society.html">Сообщество</a>
+                <a class="nav-link" href="https://starsetonline.com/store/" onclick="alert('Вы будете перенаправлены на страницу официального магазина.')">Магазин</a>
+                <a class="nav-link active" aria-current="page" href="#">Обратная связь</a>
+            </div>
+        </div>
+    </nav>
+    <div class="main-text-field">
+        <form action="http://g06u33.nn2000.info/cgi-bin/form_action.py" method="post" target="_blank">
+            <img src="/images/spread_the_message.png" alt="spread_the_message" style="margin: auto; display: block">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th colspan="2">Поделитесь впечатлениями!</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class="input_text">Фамилия:<br>
+                                <label>
+                                    <input type="text" class="form-control" placeholder="Фамилия" name="surname" required>
+                                </label>
+                            </p>
+                            <p class="input_text">Имя:<br>
+                                <label>
+                                    <input type="text" class="form-control" placeholder="Имя" name="name" required>
+                                </label>
+                            </p>
+                            <p class="input_text">Номер телефона:<br>
+                                <label>
+                                    <input type="tel" class="form-control" placeholder="Номер телефона" name="number" required>
+                                </label>
+                            </p>
+                        </td>
+                        <td>
+                            <p class="input_text">E-mail:<br>
+                                <label>
+                                    <input type="email" class="form-control" placeholder="E-mail" name="email" required>
+                                </label>
+                            </p>
+                            <p class="input_text">Дата отправки комментария:<br>
+                                <label>
+                                    <input type="date" class="form-control" name="date" required>
+                                </label>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p class="input_text">Ваш комментарий:<br>
+                                <label>
+                                    <textarea class="form-control" cols="100" rows="10" name="comment" required>Привет, Дастин. Это я, твой единственный слушатель. Я на протяжении многих лет создавал иллюзию того, что группу Starset слушает много людей, но это был я. Сейчас напишу это сообщение со всех аккаунтов.</textarea>
+                                </label>
+                            </p>
+                            <p class="file_text">Название файла для записи:
+                                <label>
+                                    <input class="form-control" type="text" name="000_file_name" value="09sviridov.txt" required>
+                                </label>
+                            </p>
+                            <p class="file_text">Выберите тип записи в файл:
+                                <label>
+                                    <select class="form-select" name="010_mode">
+                                        <option value="a" style="color: #000000">Дозаписать в файл</option>
+                                        <option value="w" style="color: #000000">Очистить файл и записать</option>
+                                    </select>
+                                </label>
+                                <input type="hidden" name="function" value="page">
+                                <input type="hidden" name="page_id" value="5">
+                            </p>
+                            <p>
+                                <input type="reset" name="reset" value="Обновить" style="color: black">
+                                <input type="submit" name="Отправить" style="color: black">
+                            </p>
+                            <p>
+                                <a href="http://g06u33.nn2000.info/tmp/09sviridov.txt" target="_blank">Результаты</a>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="https://www.starsetonline.com" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1" target="_blank">
+                    <img class="bi" src="images/star.png" alt="starset_logo" width="30" height="30">
+                </a>
+                <span class="text-muted">Starset Society</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="https://www.twitter.com/starsetonline" target="_blank"><img class="bi" src="https://pbs.twimg.com/media/ElxspQnXgAE8kML.png" alt="twitter_link" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/starsetonline" target="_blank"><img class="bi" src="https://phonoteka.org/uploads/posts/2021-04/1619706233_12-phonoteka_org-p-znachok-instagram-bez-fona-dlya-fotoshopa-12.png" alt="instagram_link" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/starsetonline" target="_blank"><img class="bi" src="https://icqinfo.ru/800/600/https/www.pinclipart.com/picdir/big/218-2187524_round-facebook-logo-like-pictures-to-pin-on.png" alt="facebook_link" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://vk.com/starset_community" target="_blank"><img class="bi" src="https://avatanplus.com/files/resources/original/56df0dbaee8c9153574da261.png" alt="vk_link" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://www.youtube.com/channel/UCk20cSRhH_ms_Yk1AZItFqA" target="_blank"><img class="bi" src="https://www.fakro.ru/images/Youtube-Ikonka.png" alt="youtube_link" width="24" height="24"></a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

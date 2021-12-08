@@ -1,0 +1,226 @@
+* {
+    color: white;
+}
+
+body {
+    background-image: url("https://trikky.ru/wp-content/blogs.dir/1/files/2020/08/06/1580313669_1-p-foni-s-chernim-kosmosom-2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    margin: auto;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    background-size: cover;
+    background-image: url("../images/header.gif");
+}
+
+#disclaimer {
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px black;
+}
+
+#disclaimer:hover {
+    text-shadow: 3px 3px 5px orangered;
+}
+
+.main-text-field {
+    background-color: rgba(169, 169, 169, 0.16);
+    border: 1px outset black;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    position: relative;
+}
+
+.main-text-field-with-nav-list {
+    background-color: rgba(169, 169, 169, 0.16);
+    border: 1px outset black;
+    padding: 20px;
+    margin-left: 210px;
+    text-align: center;
+}
+
+.main-text {
+    font-size: 20px;
+    text-indent: 3%;
+    text-align: justify;
+}
+
+.main-text-field iframe {
+    display: block;
+    margin: auto;
+}
+
+.main-text-field-with-nav-list iframe {
+    display: block;
+    margin: 50px auto;
+}
+
+.nav-list {
+    float: left;
+    width: 210px;
+    background-color: rgba(169, 169, 169, 0.16);
+    border: 1px outset black;
+    top: 66px;
+    position: sticky;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #ca6a0a;
+    text-decoration: none;
+}
+
+.image {
+    width: 300px;
+    border: 3px #000000 solid;
+}
+
+.right {
+    float: right;
+    margin-right: 10%;
+}
+
+.left {
+    float: left;
+    margin-left: 10%;
+}
+
+div.gallery {
+  margin: 8px;
+  border: 1px solid #000000;
+  float: left;
+  width: 190px;
+}
+
+div.gallery:hover {
+  border: 1px solid #ff5900;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+div.gallery img:hover {
+    opacity: 1;
+}
+
+div.gallery a {
+    color: #f3f1f8;
+    text-decoration: none;
+}
+
+div.gallery a:hover{
+    color: #6e6e6e;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+table.songs {
+    border: 3px solid black;
+    width: 60%;
+    margin: auto;
+    background-image: url("https://pbs.twimg.com/media/ETTvVqvXQAgUswx.jpg");
+}
+
+table.songs th, table.songs td {
+    border: 3px solid orangered;
+}
+
+table.songs th {
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.69)
+}
+
+table.songs td {
+    text-align: left;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.69)
+}
+
+table.songs td.album {
+    width: 40%;
+    text-align: center;
+}
+
+#society_header {
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+#society_link {
+    color: ghostwhite;
+}
+
+#society_link:hover {
+    color: rgb(252, 122, 11);
+}
+
+#lyrics {
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+}
+
+#label {
+    font-size: 15px;
+    font-style: oblique;
+    text-align: left;
+    margin-left: 250px;
+}
+
+div.art_gallery {
+    margin: 15px;
+    border: 1px solid #000000;
+    float: left;
+    width: 400px;
+}
+
+div.art_gallery img {
+  width: 100%;
+  height: auto;
+}
+
+#concerts_link {
+    color: white;
+}
+
+#concerts_link:hover {
+    color: #fc7a0b;
+}
+
+p.input_text {
+    font-size: 20px;
+    text-align: center;
+}
+
+p.file_text {
+    font-size: 20px;
+}
+
+.main-text-field h3, h5 {
+    text-align: center;
+}

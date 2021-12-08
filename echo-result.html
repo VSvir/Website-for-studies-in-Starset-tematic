@@ -1,0 +1,152 @@
+
+        <html>
+            <head>
+                <style type="text/css">
+                    
+            .echo-requestline {
+                display: grid;
+                grid-template-columns: 20% 80%;
+                background: #1d65a6;
+                color: #FFFFFF;
+                font-family: 'SanSerif', Arial, sans-serif;
+                line-height: 1.2em;
+                text-indent: 30px;
+                border-radius: 30px;
+                font-size: 1.5em;
+            }
+
+            .echo-bottom {
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 50% 50%;
+            }
+
+            .echo-left {
+                 margin-right: 5px;
+            }
+
+           .echo-panel {
+                display: grid;
+                grid-template-rows: 50px;
+            }
+
+            .echo-table-title {
+                text-align: center;
+                background: #2e75a6;
+                color: #FFF0F0;
+                padding: 10px;
+            }
+
+            .echo-table {
+                display: grid;
+                grid-template-columns: 50% 50%;
+            }
+
+            .echo-table-left {
+                 background: #2e75c8;
+                 color: #FFF0F0;
+                 padding: 5px;
+                 margin-bottom: 2px;
+             }
+
+             .echo-table-right {
+                 background: #2e53c8;
+                 color: #FFF0F0;
+                 padding: 5px;
+                 margin-bottom: 2px;
+             }
+
+
+
+            .config-panel {
+                display: grid;
+                grid-template-columns: 50% 50%;
+            }
+
+            .panel {
+              width: 90%;
+              margin: 0 auto;
+              background: #1d65a6;
+              color: #00043F;
+              font-family: 'SanSerif', Arial, sans-serif;
+              line-height: 1.2em;
+              text-indent: 30px;
+              border-radius: 30px;
+            }
+
+            .cell {
+                padding: 5px;
+            }
+
+            .pd {
+                font-family: 'SanSerif', Arial, sans-serif;
+                font-size: 1.5em;
+            }
+
+            .cfg-key {
+                background: #72a2c0;
+                overflow: hidden;
+                position: relative;
+            }
+            .file {
+                background: #192e5b;
+                color: #cccccc;
+                font-family: 'Lucida Sans', Arial, sans-serif;
+                font-size: 1.2em; line-height: 1.5em;
+                text-indent: 30px; margin: 0;
+                text-align: center;
+                border-radius: 30px;
+                margin: 30px;
+                padding: 10px;
+            }
+            a {
+                color: #cccccc;
+            }
+            .index_body {
+                background: #f2a104;
+                display: grid;
+                grid-template-columns: 60% 40%;
+            }
+
+            .echo_body {
+                background: #f2a104;
+            }
+
+            .centered {
+                text-align: center;
+            }
+        
+                </style>
+            </head>
+            <body class="echo_body">
+                
+        <div class="echo-panel">
+            <div class="echo-requestline cell">
+                <div>Request line</div>
+                <div>POST /echo HTTP/1.1</div>
+            </div>
+
+            <div class="echo-bottom">
+                <div class="echo-left">
+                    <div class="echo-headers">
+                        <div class="echo-table-title">Headers</div>
+                        <div class="echo-table">
+                            <div class="echo-table-left">Host</div> <div class="echo-table-right">localhost:8000</div><div class="echo-table-left">Connection</div> <div class="echo-table-right">keep-alive</div><div class="echo-table-left">Content-Length</div> <div class="echo-table-right">1304</div><div class="echo-table-left">Cache-Control</div> <div class="echo-table-right">max-age=0</div><div class="echo-table-left">sec-ch-ua</div> <div class="echo-table-right">" Not A;Brand";v="99", "Chromium";v="96", "Microsoft Edge";v="96"</div><div class="echo-table-left">sec-ch-ua-mobile</div> <div class="echo-table-right">?0</div><div class="echo-table-left">sec-ch-ua-platform</div> <div class="echo-table-right">"Windows"</div><div class="echo-table-left">Upgrade-Insecure-Requests</div> <div class="echo-table-right">1</div><div class="echo-table-left">Origin</div> <div class="echo-table-right">http://localhost:8000</div><div class="echo-table-left">Content-Type</div> <div class="echo-table-right">application/x-www-form-urlencoded</div><div class="echo-table-left">User-Agent</div> <div class="echo-table-right">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43</div><div class="echo-table-left">Accept</div> <div class="echo-table-right">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</div><div class="echo-table-left">Sec-Fetch-Site</div> <div class="echo-table-right">same-origin</div><div class="echo-table-left">Sec-Fetch-Mode</div> <div class="echo-table-right">navigate</div><div class="echo-table-left">Sec-Fetch-User</div> <div class="echo-table-right">?1</div><div class="echo-table-left">Sec-Fetch-Dest</div> <div class="echo-table-right">document</div><div class="echo-table-left">Referer</div> <div class="echo-table-right">http://localhost:8000/feedback.html</div><div class="echo-table-left">Accept-Encoding</div> <div class="echo-table-right">gzip, deflate, br</div><div class="echo-table-left">Accept-Language</div> <div class="echo-table-right">ru,en-GB;q=0.9,en;q=0.8,en-US;q=0.7</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="echo-right">
+                    <div class="echo-headers">
+                        <div class="echo-table-title">Data</div>
+                        <div class="echo-table">
+                            <div class="echo-table-left">Body</div> <div class="echo-table-right">surname=%D0%A4%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D1%8F&name=%D0%98%D0%BC%D1%8F&number=00000000&email=mail%40mailbox.com&date=2021-12-08&comment=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D0%94%D0%B0%D1%81%D1%82%D0%B8%D0%BD.+%D0%AD%D1%82%D0%BE+%D1%8F%2C+%D1%82%D0%B2%D0%BE%D0%B9+%D0%B5%D0%B4%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9+%D1%81%D0%BB%D1%83%D1%88%D0%B0%D1%82%D0%B5%D0%BB%D1%8C.+%D0%AF+%D0%BD%D0%B0+%D0%BF%D1%80%D0%BE%D1%82%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8+%D0%BC%D0%BD%D0%BE%D0%B3%D0%B8%D1%85+%D0%BB%D0%B5%D1%82+%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%B2%D0%B0%D0%BB+%D0%B8%D0%BB%D0%BB%D1%8E%D0%B7%D0%B8%D1%8E+%D1%82%D0%BE%D0%B3%D0%BE%2C+%D1%87%D1%82%D0%BE+%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D1%83+Starset+%D1%81%D0%BB%D1%83%D1%88%D0%B0%D0%B5%D1%82+%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%2C+%D0%BD%D0%BE+%D1%8D%D1%82%D0%BE+%D0%B1%D1%8B%D0%BB+%D1%8F.+%D0%A1%D0%B5%D0%B9%D1%87%D0%B0%D1%81+%D0%BD%D0%B0%D0%BF%D0%B8%D1%88%D1%83+%D1%8D%D1%82%D0%BE+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE+%D0%B2%D1%81%D0%B5%D1%85+%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%BE%D0%B2.&000_file_name=09sviridov.txt&010_mode=a&function=page&page_id=5&%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C</div><div class="echo-table-left">surname</div> <div class="echo-table-right">Фамилия</div><div class="echo-table-left">name</div> <div class="echo-table-right">Имя</div><div class="echo-table-left">number</div> <div class="echo-table-right">00000000</div><div class="echo-table-left">email</div> <div class="echo-table-right">mail@mailbox.com</div><div class="echo-table-left">date</div> <div class="echo-table-right">2021-12-08</div><div class="echo-table-left">comment</div> <div class="echo-table-right">Привет, Дастин. Это я, твой единственный слушатель. Я на протяжении многих лет создавал иллюзию того, что группу Starset слушает много людей, но это был я. Сейчас напишу это сообщение со всех аккаунтов.</div><div class="echo-table-left">000_file_name</div> <div class="echo-table-right">09sviridov.txt</div><div class="echo-table-left">010_mode</div> <div class="echo-table-right">a</div><div class="echo-table-left">function</div> <div class="echo-table-right">page</div><div class="echo-table-left">page_id</div> <div class="echo-table-right">5</div><div class="echo-table-left">Отправить</div> <div class="echo-table-right">Отправить</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            </body>
+        </html>
+        
