@@ -23,8 +23,7 @@ body {
 
 #disclaimer {
     text-align: center;
-    font-size: 60px;
-    letter-spacing: 5px;
+    font-size: 6em;
     text-shadow: 2px 2px 5px black;
 }
 
@@ -50,7 +49,7 @@ body {
 }
 
 .main-text {
-    font-size: 20px;
+    font-size: 1.5em;
     text-indent: 3%;
     text-align: justify;
 }
@@ -223,4 +222,15 @@ p.file_text {
 
 .main-text-field h3, h5 {
     text-align: center;
+}
+
+#image_viewer {
+    height: 98vh;
+    display: flex;
+}
+
+#view_image {
+    margin: auto;
+    width: 600px;
+    height: 600px;
 }
