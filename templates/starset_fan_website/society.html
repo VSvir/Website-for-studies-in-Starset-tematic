@@ -1,0 +1,152 @@
+{% extends 'starset_fan_website/layout.html' %}
+
+{% block title %}
+    Сообщество
+{% endblock %}
+
+{% block page_logo %}
+    <img src="../../static/images/Devolution.png" alt="лого" title="В начало" width="40" height="40">
+{% endblock %}
+
+{% block content %}
+    <div class="nav-list">
+        <h5 style="text-align: center">На этой странице:</h5>
+        <ol>
+            <li><a href="{% url 'society' %}#society">Сообщество</a></li>
+            <li><a href="{% url 'society' %}#gallery">Галерея</a></li>
+            <li><a href="{% url 'society' %}#concerts">Афиша</a></li>
+        </ol>
+    </div>
+    <div class="main-text-field-with-nav-list">
+        <a id="society"></a><h1 id="society_header"><a id="society_link" href="http://thestarsetsociety.org/" target="_blank">Starset Society</a><img src="../../static/images/society-logo.png" alt="society-logo" width="69" height="69"></h1>
+        <p class="main-text">Группа Starset ведёт сотрудничество с организациями, занимающимися высокотехнологичными разработками.
+        Тем не менее достаточно трудно сказать однозначно, является ли информация, выкладывающаяся на сайте сообщества, реальной.
+        Кроме того, группа всегда преподносила своё творчество как некое предупреждение. Именно об этом говорится в интро к первому альбому:</p>
+        <pre id="lyrics">
+            Cascading waves of change
+            (The future, the future, the future)
+            The things we think to be inconsequential, can affect the future unintentionally
+
+            Once you had the power to effect monumental change, would you let fear consume?
+            Or would you overcome?
+
+            We sent a message (into the past)
+            A warning of man's imminent demise
+            We have that message
+            The following (record) was inspired by that message
+            Though this story is not inevitable (inevitable), and a society does evolve
+
+            We can change our fate
+            We can change the future
+            We can change the past
+        </pre>
+        <p id="label">First Light. Transmissions. Starset.</p>
+        <p class="main-text">Смысл данных строк объясняется следующим образом:</p>
+        <p class="main-text"><i>"In the early hours of New Years Day 2013, a radio astronomer at the Allen Telescope Array in northern California
+            discovered a mysterious signal emanating from a star within the Ophiuchus Constellation.
+            Contained within the signal was a Message–of human origin–foretelling the details of man’s imminent demise.
+            The Message was brought to The Starset Society, who quickly realized the importance of its immediate publication.
+            Risking extreme danger, The Starset Society commissioned a group of musicians and scientists to assist them in spreading
+            the knowledge to a broader audience. This group became known simply as STARSET."</i>
+        </p>
+        <p class="main-text">Несмотря на сотрудничество Starset с научными организациями, кажется, что "предупреждение" группы
+            рассказывает именно о том случае, когда технологии заходят слишком далеко, из-за чего жизнь
+            людей превращается в антиутопию с контролем чувств и эмоций - именно это прослеживается
+            в текстах и песнях этой группы.
+        </p>
+        <a id="gallery"></a><h1 style="margin-top: 50px">Галерея</h1>
+        <div class="container-flex" style="justify-content: space-around">
+            <div class="art_gallery">
+                <img src="../../static/images/gallery_image.jpg" alt="gallery_image">
+            </div>
+            <div class="art_gallery">
+                <img src="https://i.pinimg.com/736x/fc/45/5f/fc455f6fd2f282fee6a7b810b6499b83.jpg" alt="gallery_image">
+            </div>
+            <div class="art_gallery">
+                <img src="https://sun9-51.userapi.com/impg/c854024/v854024086/1a1d1a/dql9EpQdAzo.jpg?size=1080x1080&quality=96&sign=1168327de81b3090a238b212be0d07b1&type=album" alt="gallery_image">
+            </div>
+            <div class="art_gallery">
+                <img src="https://sun9-43.userapi.com/impg/PfZM6iTyT7igg7Hm4xeg8iei5rkruZoQjk3M5A/Cgv4uIj9VBA.jpg?size=1080x864&quality=96&sign=87abc96fcf1a66443a128cdf47ee2e2c&type=album" alt="gallery_image">
+            </div>
+            <div class="art_gallery">
+                <img src="https://sun9-44.userapi.com/impg/c856024/v856024014/212fb4/FF0u3sppogQ.jpg?size=1080x864&quality=96&sign=e01f0c4666012aa57b1f58baba55ed11&type=album" alt="gallery_image">
+            </div>
+            <div class="art_gallery">
+                <img src="https://sun9-7.userapi.com/impg/c857224/v857224014/12e78b/EzJbdOEeqd0.jpg?size=1080x864&quality=96&sign=86406fedbab8645c8063f87b227ee9a8&type=album" alt="gallery_image">
+            </div>
+            <div class="art_gallery">
+                <img src="https://sun9-69.userapi.com/impg/c857332/v857332014/b5071/FpoYh5SZmc4.jpg?size=1080x864&quality=96&sign=5c19770df42b1f8df9fdbe4cdbd8d760&type=album" alt="gallery_image">
+            </div>
+            <div class="art_gallery">
+                <img src="https://sun9-4.userapi.com/impg/c857720/v857720014/1b6210/2ynlOnTOp0Q.jpg?size=1080x864&quality=96&sign=8bfbe307eb80f2cbb2ac81e2127dd78e&type=album" alt="gallery_image">
+            </div>
+            <div class="art_gallery">
+                <img src="https://sun9-64.userapi.com/impg/cu2gbDwTtVTzqhiODV2GBELGf_LLKaydg-sRnA/MbK7OecFPwY.jpg?size=1080x864&quality=96&sign=571d2973958685cd2a058a5f99704437&type=album" alt="gallery_image">
+            </div>
+            <div class="art_gallery">
+                <img src="https://sun9-3.userapi.com/impf/c639630/v639630648/6bd2c/gpm09_GollQ.jpg?size=960x960&quality=96&sign=bf289a36d6c280b33a559065a931b409&type=album" alt="gallery_image">
+            </div>
+            <div class="art_gallery">
+                <img src="https://sun9-81.userapi.com/impf/c837239/v837239142/393d5/rFROfaJKJcc.jpg?size=960x960&quality=96&sign=74e436d02a6998f5402ed6f23c5f2d5f&type=album" alt="gallery_image">
+            </div>
+            <div class="art_gallery">
+                <img src="https://sun9-80.userapi.com/impf/c636725/v636725142/5ba59/mEO2TyNiJn0.jpg?size=720x720&quality=96&sign=119b299de0c0f027dda1b5c591fa11b9&type=album" alt="gallery_image">
+            </div>
+        </div>
+        <iframe width="800" height="460"
+            src="https://www.youtube.com/embed/WzohzJCTm2E?playlist=WzohzJCTm2E&autoplay=1&mute=1&loop=1&controls=0">
+        </iframe>
+        <a id="concerts"></a><h1 style="margin-bottom: 20px"><a id="concerts_link" href="https://afisha.yandex.ru/artist/starset?city=moscow" target="_blank">Афиша</a></h1>
+        <table class="table table-dark table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Дата</th>
+                    <th>Город</th>
+                    <th>Место</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>18 марта</td>
+                    <td>Воронеж</td>
+                    <td>Aura</td>
+                </tr>
+                <tr>
+                    <td>19 марта</td>
+                    <td>Ростов-на-Дону</td>
+                    <td>Кроп Arena</td>
+                </tr>
+                <tr>
+                    <td>20 марта</td>
+                    <td>Краснодар</td>
+                    <td>Кроп Arena</td>
+                </tr>
+                <tr>
+                    <td>22 марта</td>
+                    <td>Екатеринбург</td>
+                    <td>Фабрика</td>
+                </tr>
+                <tr>
+                    <td>24 марта</td>
+                    <td>Уфа</td>
+                    <td>Тинькофф Холл</td>
+                </tr>
+                <tr>
+                    <td>28 марта</td>
+                    <td>Казань</td>
+                    <td>Big Twin Arena</td>
+                </tr>
+                <tr>
+                    <td>30 марта</td>
+                    <td>Нижний Новгород</td>
+                    <td>Milo Concert Hall</td>
+                </tr>
+                <tr>
+                    <td>3 апреля</td>
+                    <td>Санкт-Петербург</td>
+                    <td>Космонавт</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

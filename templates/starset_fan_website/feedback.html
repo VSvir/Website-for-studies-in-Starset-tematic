@@ -1,0 +1,76 @@
+{% extends 'starset_fan_website/layout.html' %}
+
+{% block title %}
+    Обратная связь
+{% endblock %}
+
+{% block page_logo %}
+    <img src="../../static/images/ThisEndlessEndeavor.png" alt="лого" title="В начало" width="40" height="40">
+{% endblock %}
+
+{% block content %}
+    <div class="main-text-field">
+        <form action="https://yandex.ru/search/" method='get' target='_blank'>
+            <img src="../../static/images/spread_the_message.png" alt="spread_the_message" style="margin: auto; display: block;">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th colspan="2">SPREAD THE MESSAGE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class="input_text">Фамилия:<br>
+                                <label>
+                                    <input type="text" class="form-control" placeholder="Фамилия" name="surname">
+                                </label>
+                            </p>
+                            <p class="input_text">Имя:<br>
+                                <label>
+                                    <input type="text" class="form-control" placeholder="Имя" name="name" required>
+                                </label>
+                            </p>
+                            <p class="input_text">Номер телефона:<br>
+                                <label>
+                                    <input type="tel" class="form-control" placeholder="Номер телефона" name="number">
+                                </label>
+                            </p>
+                        </td>
+                        <td>
+                            <p class="input_text">E-mail:<br>
+                                <label>
+                                    <input type="email" class="form-control" placeholder="E-mail" name="email">
+                                </label>
+                            </p>
+                            <p class="input_text">Дата отправки комментария:<br>
+                                <label>
+                                    <input type="date" class="form-control" name="date">
+                                </label>
+                            </p>
+                            <p class="input_text">Задать вопрос:<br>
+                                <label>
+                                    <input type="text" class="form-control" value="what is starset" name="text">
+                                </label>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p class="input_text">Ваш комментарий:<br>
+                                <label>
+                                    <textarea class="form-control" cols="100" rows="10" name="comment"
+                                              required>Привет, Дастин. Это я, твой единственный слушатель. Я на протяжении многих лет создавал иллюзию того, что группу Starset слушает много людей, но это был я. Сейчас напишу это сообщение со всех аккаунтов.</textarea>
+                                </label>
+                            </p>
+                            <p>
+                                <input type="reset" name="reset" value="Обновить" style="color: black">
+                                <input type="submit" name="Отправить" style="color: black">
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+{% endblock %}
